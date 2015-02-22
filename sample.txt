@@ -1,0 +1,30 @@
+ENROLL Grade {
+	
+	@~ This program shows the equivalent of grade ~@
+	
+	
+	LABAS"Please enter grade:"~
+	grade = PASOK()~
+	grade2 = 12~
+
+	Exam(grade)
+	{
+	   Tama 'A' :
+		LABAS"Excellent"~	
+		Mali~
+	   Tama 'B' :
+	   Tama 'C' :
+		LABAS"Well done"~
+		Mali~
+           Tama 'D' :
+		LABAS You passed~
+	   Tama 'F' :
+		LABAS"Better try again"~
+	        Mali~
+              Bonus:
+		LABAS"Invalid grade"~
+	}
+	LABAS"Your grade is" & grade~
+
+
+} GRADUATE
